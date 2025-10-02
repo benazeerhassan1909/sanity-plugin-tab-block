@@ -1,6 +1,6 @@
 # @multidots/sanity-plugin-tab-block
 
-> A comprehensive tab block plugin for **Sanity Studio v3** that provides dynamic, customizable tab interfaces with rich content support.
+> A comprehensive tab block plugin for **Sanity Studio** that provides dynamic, customizable tab interfaces with rich content support.
 
 
 ## Features
