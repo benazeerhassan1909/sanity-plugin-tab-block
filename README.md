@@ -67,6 +67,20 @@ export default defineType({
 
 ### 3. Render in Your Frontend
 
+#### Update GROQ Queries to Include Tab Block
+
+```typescript
+export const getPageQuery = defineQuery(`
+  *[_type == 'page' && slug.current == $slug][0]{
+    _id,
+    _type,
+    name,
+    slug,
+    tabBlock,
+  }
+}`);
+```
+
 #### Create a Component Wrapper
 
 For a clean and maintainable frontend implementation, create a dedicated component wrapper first, then use it in your pages. This approach provides better code organization and reusability.
@@ -77,12 +91,11 @@ First, create a Tab.tsx component in your components directory:
 ```typescript
   'use client'
 
-  import { TabBlock as TabBlockComponent } from "@multidots/sanity-plugin-tab-block"
-  import { TabBlock } from "@/sanity/types"
+import { TabBlock as TabBlockComponent, TabBlockData } from "@multidots/sanity-plugin-tab-block"
   import { PortableText } from 'next-sanity'
 
   type TabProps = {
-      tab: TabBlock
+      tab: TabBlockData
   }
 
   const Tab = ({ tab }: TabProps) => {
@@ -102,7 +115,7 @@ First, create a Tab.tsx component in your components directory:
 Use in Your Page Component
 
 ```typescript
-import { TabBlockType } from '@/sanity/types'
+import { TabBlockData } from '@multidots/sanity-plugin-tab-block';
 import Tab from '@/components/Tab'
 
 // Add code to get the page data
@@ -112,7 +125,7 @@ export default async function Page({ params }: RouteProps) {
     return  (
         <>
             {page?.tabBlock && (
-                <Tab tab={page?.tabBlock as TabBlockType} />
+                <Tab tab={page?.tabBlock as TabBlockData} />
             )}
         </>
     ) ;
