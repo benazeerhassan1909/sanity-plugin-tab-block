@@ -10,7 +10,7 @@
 - **Rich Content**: Portable Text support with headings, lists, links, and formatting
 - **Flexible Layouts**: Horizontal and vertical tab orientations with intelligent mobile adaptation
 - **Responsive Design**: Comprehensive responsive behavior across all device sizes
--- **Full ARIA Compliance**: Complete `role`, `aria-selected`, `aria-controls`, `aria-labelledby`, and `tablist` attributes
+- **Full ARIA Compliance**: Complete `role`, `aria-selected`, `aria-controls`, `aria-labelledby`, and `tablist` attributes
 
 
 ### 🎨 Customization Options
