@@ -261,19 +261,6 @@ https://share.cleanshot.com/52CCqGWfZ2LxwQj7sbft
 ![Frontend Vertical View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/forntendsettingsvertical.gif)
 
 
-## Browser Support
-
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- IE11+ (with appropriate polyfills)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Requirements
-
-- **Node.js**: 18 or higher
-- **React**: 18 or higher
-- **Sanity**: v3
-- **TypeScript**: 5.x (for development)
-
 ## Development
 
 ### Testing in Sanity Studio
@@ -352,10 +339,5 @@ See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#
 
 [MIT](LICENSE) © Multidots
 
-## Support
-
-For issues and feature requests, please use the [GitHub issues page](https://github.com/your-org/sanity-plugin-tab-block/issues).
-
 ---
 
-**Made with ❤️ by [Multidots](https://multidots.com)**
