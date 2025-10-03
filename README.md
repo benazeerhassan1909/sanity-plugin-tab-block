@@ -21,7 +21,6 @@
   - Tab title colors (active/inactive/hover states)
   - Tab background colors (active/inactive states)
   - Content text and background colors
-  - Active tab border colors
   - Tab hover colors
 
 
@@ -156,7 +155,6 @@ export default async function Page({ params }: RouteProps) {
 | `tabTitleColor` | Inactive tab title color | Default color for tab buttons |
 | `tabTitleHoverColor` | Tab title hover background color | Background color when hovering over tabs |
 | `activeTabTitleColor` | Active tab title color | Text color for the currently active tab |
-| `activeTabBorderColor` | Active tab border color | Border color indicating the active tab |
 | `tabBackgroundColor` | Tab button background color | Default background for tab buttons |
 | `activeTabBackgroundColor` | Active tab background color | Background color for the active tab |
 | `tabContentColor` | Tab content text color | Text color within tab content areas |
@@ -220,7 +218,6 @@ interface TabBlockData {
   tabTitleColor?: {hex: string}
   tabTitleHoverColor?: {hex: string}
   activeTabTitleColor?: {hex: string}
-  activeTabBorderColor?: {hex: string}
   tabBackgroundColor?: {hex: string}
   activeTabBackgroundColor?: {hex: string}
   tabContentColor?: {hex: string}
@@ -258,20 +255,20 @@ The component generates these CSS classes:
 
 https://share.cleanshot.com/9qzKd1JQVqctkHJqQpNL 
 
-![Backend Settings](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/tabblockbackendsettings.png)
+![Backend Settings](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockBackendSettings.jpeg)
 
 ### Frontend Horizontal View: 
 
 https://share.cleanshot.com/nqlbLY0G7jLLjPJstg0k  
 
-![Frontend Horizontal View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/frontendsettings.gif)
+![Frontend Horizontal View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockHorizontalView.gif)
 
 
 ### Frontend Vertical View: 
 
 https://share.cleanshot.com/52CCqGWfZ2LxwQj7sbft 
 
-![Frontend Vertical View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/forntendsettingsvertical.gif)
+![Frontend Vertical View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockVerticalView.gif)
 
 
 ## Development
@@ -299,7 +296,6 @@ See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#
   tabTitleColor: {hex: '#4A5568'},
   tabTitleHoverColor: {hex: '#F7FAFC'},
   activeTabTitleColor: {hex: '#3182CE'},
-  activeTabBorderColor: {hex: '#3182CE'},
   tabBackgroundColor: {hex: 'transparent'},
   activeTabBackgroundColor: {hex: '#EBF8FF'},
   tabContentColor: {hex: '#2D3748'},
