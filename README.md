@@ -253,20 +253,20 @@ The component generates these CSS classes:
 
 ### Backend Settings: 
 
-https://share.cleanshot.com/9qzKd1JQVqctkHJqQpNL 
+https://share.cleanshot.com/vyGd88Rybns7g2vwmxZW 
 
 ![Backend Settings](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockBackendSettings.jpeg)
 
 ### Frontend Horizontal View: 
 
-https://share.cleanshot.com/nqlbLY0G7jLLjPJstg0k  
+https://share.cleanshot.com/3x4DB3JYSZCFyhBR8MK0 
 
 ![Frontend Horizontal View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockHorizontalView.gif)
 
 
 ### Frontend Vertical View: 
 
-https://share.cleanshot.com/52CCqGWfZ2LxwQj7sbft 
+https://share.cleanshot.com/0Q5yBP3KTlszMFMST5Ft
 
 ![Frontend Vertical View](https://github.com/benazeerhassan1909/sanity-plugin-tab-block/blob/main/public/TabblockVerticalView.gif)
 
